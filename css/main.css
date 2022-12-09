@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body {
+    color:#333;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* 헤드 */
+.head{}
+
+.head h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 160px;
+}
+
+.head .nav {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.head .nav .menu {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head .nav .menu li a {
+    height: 70px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0 30px ;
+}
+
+/* 내용 */
+.container{}
+
+.container .item {
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container.item {
+    
+}
+
+.container .item  li{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.container .item  li .photo {
+    
+    
+}
+
+.container .item .text h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.container .item .text p {
+    line-height: 1.6;
+}
+
+.bottom{
+    border-top: 1px solid #ddd;
+    height: 160px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 런던페이지 */
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container .photo {
+    text-align: center;
+}
+
+.container .photo img {
+   width: 600;
+}
+
+.container .text {
+    margin-top: 40px;
+    width: 600;
+
+}
+
+/* 콘테이너 _02 */
+.container_02 {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.container_02 .item {
+    display: flex;
+    
+}
+
+.container_02 .item .photo img  {
+    padding-left: 20px;
+}
+
+.container_02 .item .text {
+    padding: 20px;
+}
+
+.container_02 .item .text h2 {
+    margin-bottom: 20px;
+}
+
+/* 콘테이너 _03 */
+.container_03 {
+    padding: 30px;
+}
+
+.container_03 .item {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.container_03 .item .photo  {
+    width: 240px;
+    height: 240px;
+    background-color: #333;
+    border-radius: 240px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container_03 .item .photo.london {
+    background-image: url("../images/london_b.jpg");
+    margin: 0 auto;
+}
+
+.container_03 .item .photo.paris {
+    background-image: url("../images/paris_b.jpg");
+}
+
+.container_03 .item .photo.tokyo {
+    background-image: url("../images/tokyo_b.jpg");
+    
+}
+
+.container_03 .item .text {
+    width: 610;
+}
+
+.container_03 .item .text h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container_03 .item .text p{
+    font-size: 20px;
+}
